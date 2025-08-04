@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd">
+    <ui:VisualElement name="Barra-Recursos" style="flex-grow: 1; align-self: flex-start; flex-direction: row;">
+        <ui:VisualElement name="RecursoHuevos" style="flex-grow: initial; flex-direction: row; flex-basis: auto;">
+            <ui:VisualElement name="IconoHuevos" style="flex-grow: 1; width: 24px; height: 24px; background-image: url(&quot;project://database/Assets/Sprites/Egg_And_Nest.png?fileID=1265941462&amp;guid=042b932245d9aea4ca5a5638de082659&amp;type=3#Egg_And_Nest_0&quot;);" />
+            <ui:Label tabindex="-1" text="0" parse-escape-sequences="true" display-tooltip-when-elided="true" name="labelHuevos" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
